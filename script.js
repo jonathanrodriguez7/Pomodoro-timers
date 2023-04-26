@@ -1,7 +1,5 @@
 window.addEventListener('DOMContentLoaded',()=>{
-
 function pomodoroTimer(){
-    
     function getTimeFromSeconds(seconds){
         const date = new Date(seconds * 1000);
         return date.toLocaleTimeString('pt-br',{
@@ -39,6 +37,3 @@ function pomodoroTimer(){
 }
 pomodoroTimer();
 });
-
-
-
